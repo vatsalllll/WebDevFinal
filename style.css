@@ -1,0 +1,77 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  background-color: white;
+  border-bottom: 2px solid black;
+  padding-bottom: 3px;
+}
+
+.image-container {
+  justify-content: space-between;
+  display: flex;
+}
+
+.main-box {
+  display: flex;
+  justify-content: space-between;
+  height: 500px;
+}
+
+.box1 {
+  flex-basis: 60%;
+  height: 800px;
+  background-color: white;
+}
+
+.box2 {
+  flex-basis: 40%;
+  height: 500px;
+  background-color: white;
+}
+
+.box1 h3 {
+  font-style: sans-serif;
+  align-items: center;
+  justify-content: center;
+}
+
+.box1 {
+  background-color: rgb(233, 239, 245);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mbox1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mbox1-button {
+  border-radius: 25px;
+  background-color: blue;
+  height: 30px;
+  width: 50px;
+}
+
+.mbox1 input {
+  width: 150px;
+  margin: 5px;
+  height: 100px;
+  border-color: transparent;
+  background-color: white;
+  border-radius: 30px;
+}
+
+.mbox2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mbox2 h4 {
+  color: black;
+  text-align: center;
+}
